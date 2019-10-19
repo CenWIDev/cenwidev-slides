@@ -1,32 +1,31 @@
 {
-  "name": "gatsby-deck",
+  "name": "cenwidev-slides",
   "private": true,
-  "description": "An mdx-deck for Gatsby slides",
-  "version": "0.1.0",
+  "description": "An mdx-deck for cenwidev intro slides",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.13.67",
-    "gatsby-design-tokens": "^1.0.0",
     "gatsby-theme-mdx-deck": "^3.0.9",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
+    "mdx-deck": "^3.0.13",
     "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/CenWIDev/cenwidev-slides"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/CenWIDev/cenwidev-slides/issues"
   }
 }

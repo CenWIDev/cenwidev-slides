@@ -1,55 +1,35 @@
-import { colors } from "gatsby-design-tokens"
-
 export default {
   initialColorMode: "normal",
   useCustomProperties: true,
   fonts: {
-    body: "Roboto, sans-serif",
-    monospace: '"Roboto Mono", monospace',
+    heading: '"Share Tech Mono", sans-serif',
+    body: '"Share Tech Mono", monospace'
   },
   googleFont:
-    "https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap",
+    "https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap",
   colors: {
-    text: colors.white,
-    background: colors.purple[80],
-    primary: colors.gatsby,
-    gold: colors.yellow[50],
-    invertedText: colors.text.primary,
-    modes: {
-      invert: {
-        text: colors.text.primary,
-        background: colors.white,
-        primary: colors.gatsby,
-      },
-    },
+    text: '#FFF',
+    background: '#222',
+    primary: '#fdd043'
   },
   styles: {
-    Slide: {},
-    b: {
-      color: "gold",
-    },
     strong: {
-      color: "primary",
+      color: '#fdd043',
     },
     h1: {
-      fontSize: 60,
-      fontWeight: 600,
-      margin: 0,
+      color: '#fdd043',
+      "font-style": "italic",
+      "font-weight": "bold",
+      "text-shadow": "0px 0px 5px #fda243"
     },
     h2: {
-      fontSize: 48,
-      fontWeight: 400,
-      color: colors.yellow[50],
-      margin: 0,
+      color: '#fdd043',
+      "font-style": "italic",
+      "font-weight": "bold",
+      "text-shadow": "0px 0px 5px #fda243"
     },
-    h3: {
-      fontSize: 36,
-      fontWeight: 400,
-      color: colors.purple[40],
-      mt: 10,
-    },
-    p: {
-      fontWeight: 300,
-    },
-  },
+    li: {
+      margin: '0px 0px 2rem'
+    }
+  }
 }

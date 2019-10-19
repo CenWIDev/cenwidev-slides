@@ -1,13 +1,10 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://www.cenwidev.org">
+    <img alt="cenwidev" src="https://raw.githubusercontent.com/CenWIDev/cenwidev-slides/master/static/cenwidev.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Deck
+  cen_wi_dev slides
 </h1>
 
-An [mdx-deck](https://github.com/jxnblk/mdx-deck) styled with [Gatsby's design guidelines and tokens](https://www.gatsbyjs.org/guidelines/design-tokens/).
-
-<img src="https://raw.githubusercontent.com/gillkyle/images/master/gatsby-deck.png" />
+An [mdx-deck](https://github.com/jxnblk/mdx-deck) for introduction slides for the cen_wi_dev meetup
